@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20220124 20:01:08.963" rpa="false" schemaversion="2">
+<suite id="s1" name="Randomstring" source="C:\library\random_string\Tests\randomstring.robot">
+<test id="s1-t1" name="Minimal task">
+<kw name="Random String" library="randomstring">
+<var>${txt}</var>
+<msg timestamp="20220124 20:01:08.996" level="INFO">${txt} = KC1HP21I_hello</msg>
+<status status="PASS" starttime="20220124 20:01:08.995" endtime="20220124 20:01:08.996"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${txt}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220124 20:01:08.996" endtime="20220124 20:01:08.997"/>
+</kw>
+<status status="PASS" starttime="20220124 20:01:08.994" endtime="20220124 20:01:08.998"/>
+</test>
+<doc>A simple example of using a library.</doc>
+<status status="PASS" starttime="20220124 20:01:08.965" endtime="20220124 20:01:08.999"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Randomstring">Randomstring</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
